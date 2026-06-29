@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Claude
+.claude/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Checkpoints & logs
+*.pth.tar
+checkpoint/
+checkpoint.zip
+trainlog/
+otherlogs/
+
+# Loss & training script (not open-source)
+loss.py
+train.py
+
+# Dataset (only keep .txt index files, actual images are external)
+dataset/*/image/
+dataset/*/mask/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+venv/
+.venv/
